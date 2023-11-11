@@ -1,0 +1,371 @@
+{
+  "general": {
+    "first_name": "Claire",
+    "middle_name": "Gan Li",
+    "last_name": "Oudea",
+    "navbar_social_links": {
+      "github": "https://github.com/KevinTrinh1227",
+      "handshake": "https://sketchfab.com/TheGreyCroissant",
+      "linkedin": "https://www.linkedin.com/in/claireoudea/",
+      "email": "oudeaclaire@gmail.com"
+    }
+  },
+  
+  "intro_screen": {
+    "section": {
+      "enable_section": true
+    },
+    "main_header": "Claire Oudea.",
+    "main_subtitle": "3D Artist | Creative Developer | Game Artist",
+    "intro_bio": [
+      "Hey there, I'm a final year student at Singapore University of Technology and Design. I'm a Creative developer | 3D Generalist with a facination for bridging the gap between code, art (and all the weirdness in between). In my spare time, I do 3D modelling (the motorcycle character), boxing, sewing and pretty much anything I can do with my hands.", 
+      "I also speak three languages (English, French, Chinese) and Japanese will hopefully be my fourth, so don't hesitate to contact me!"
+    ],
+    "email_button": "Contact Me"
+  },
+  
+  "about_me": {
+    "section": {
+      "enable_section": true,
+      "title": "Skills",
+      "navbar_name": "/Skills",
+      "description": "Some stuff I've worked with:"
+    },
+    "headShotUrl": "../assets/portrait.png",
+    "videoBG" : "../assets/bending.mp4",
+    "videoBG2" : "../assets/a.mp4",
+    "skills": [
+      "Unity",
+      "Blender",
+      "Unreal Engine",
+      "Fusion360",
+      "Procreate",
+      "C#",
+
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "HTML & CSS",
+      "Python 3",
+      "React 3 Fiber",
+      "HuggingFace"
+    ]
+  },
+ 
+  "experience": {
+    "section": {
+      "enable_section": true,
+      "title": "Experience",
+      "navbar_name": "/Experience",
+      "description": "Positions or organizations I am/have been a part of."
+    },
+    "experience_items": [
+      {
+        "organization": "APOL",
+        "title": "Product Design Intern",
+        "start_date": "August 2022",
+        "end_date": " December 2022",
+        "description": [
+          "Modelled and rendered highly realistic sci-fi chair model prototypes",
+          "Designed new features for uocoming ergonomic chair model",
+          "Communication with Chinese manuracturers Tor sourcing or materials and parts"
+        ]
+      },
+      {
+        "organization": "SUTD",
+        "link": "https://npengagement.com",
+        "title": "Technical Artist",
+        "start_date": "March 2022",
+        "end_date": "December 2022",
+        "description": [
+          "Modelled and optimised 3D models for VR in Unreal engine",
+          "Contributed to animation (Unreal Engine and Blender) of car-interior environments to study user-car social interaction",
+          "Conducted user studies and analysing data to improve and optimise solutions"
+        ]
+      }
+    ]
+  },
+
+  "projects": {
+    "section": {
+      "enable_section": true,
+      "title": "Projects",
+      "navbar_name": "/Projects",
+      "description": "Some of recent or past favorite creations or work."
+    },
+    "project_items": [
+      {
+        "use_git_api": false,
+        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Hycord-Bot",
+        "project_name": "Laparolymph: VR Surgical Training Game",
+        "description": "A major final year project surrouding the use of a VR training tool to train surgeons in a challenging surgery. In partnership with DukeNUS university, this project will be completed in May 2024.",
+        "resources_used": ["UNITY", "Blender", "C#"],
+        "start_date": "Dec 2022",
+        "end_date": "May 2024",
+        "links": [
+          {
+            "href": "https://drive.google.com/file/d/1LcDopyHIZHjFHvSUxjQYrK6QFXpI86bd/view?usp=sharing",
+            "icon": "FiExternalLink",
+            "data_tooltip": "Information Page"
+          },
+          {
+            "href": "https://github.com/bridget5615/capstone-s49",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          }
+        ]
+      },
+      {
+        "use_git_api": false,
+        "api_github_repo_link": "https://huggingface.co/ClaireOzzz/Spatial-Project_2.5DShopGenerator",
+        "project_name": "2.5D ControlNet Shop Generator",
+        "description": "The development of a large-scale machine learning model pipeline that can be used to generate shop designs in 2.5D. The pipeline consists of a SD training process, and several generation processes.",
+        "resources_used": [
+          "Python",
+          "HuggingFace",
+          "Stable Diffusion",
+          "React.js",
+          "HTML",
+          "CSS"
+        ],
+        "start_date": "August 2023",
+        "end_date": "Dec 2023",
+        "links": [
+          {
+            "href": "https://huggingface.co/ClaireOzzz/Spatial-Project_2.5DShopGenerator",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          }
+        ]
+      },
+      {
+        "use_git_api": false,
+        "api_github_repo_link": "https://github.com/ClaireOzzz/GrabFood-WebSimulation-Model",
+        "project_name": "Grab: Delivery System Web Simulator",
+        "description": "A short-term project which aimed to build a simulation model for GrabFood's delivery system. The model includes a dashboard to toggle variables and a statistical visualation page.",
+        "resources_used": [
+          "React.js",
+          "NVM",
+          "HTML & CSS",
+          "JavaScript",
+          "HTML",
+          "CSS"
+        ],
+        "start_date": "Jan 2023",
+        "end_date": "June 2023",
+        "links": [
+          {
+            "href": "https://github.com/ClaireOzzz/GrabFood-WebSimulation-Model",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          }
+        ]
+      },
+      {
+        "use_git_api": false,
+        "api_github_repo_link": "https://github.com/ClaireOzzz/Software-Design-Studio-HELP-app",
+        "project_name": "Humanitarian Aid Progressive Web App",
+        "description": "A fullstack progressive web app that is targeted for Ukrainians in need of aid. The PWA has 13 microfeatures, of which three are ML enabled features (NLP, CV, chatbot).",
+        "resources_used": ["React.js", "HTML & CSS", "Google API"],
+        "start_date": "August 2022",
+        "end_date": "Dec 2022",
+        "links": [
+          {
+            "href": "https://sites.google.com/mymail.sutd.edu.sg/pelican/home",
+            "icon": "FiExternalLink",
+            "data_tooltip": "Information Page"
+          },
+          {
+            "href": "https://github.com/ClaireOzzz/Software-Design-Studio-HELP-app",
+            "icon": "FaGithub",
+            "data_tooltip": "Visit GitHub Repo"
+          }
+        ]
+      }
+    ]
+  },
+
+  "threeD": {
+    "section": {
+      "enable_section": true,
+      "title": "3D Assets",
+      "navbar_name": "/3D Assets",
+      "description": "3D Models i've created with Blender."
+    },
+    "threeD_items": [
+      {
+        "imageURL": "../assets/3D/zuko.png",
+        "name": "Zuko From Avatar",
+        "links": [
+          {
+            "href": "https://sketchfab.com/3d-models/zuko-manga-stylized-53bed32aaf144a1cb5031a9c875ec619",
+            "icon": "FiExternalLink",
+            "data_tooltip": "SketchFab"
+          }
+        ]
+      },
+      {
+        "imageURL": "../assets/3D/well.png",
+        "name": "A Stylized Well",
+        "links": [
+          {
+            "href": "https://sketchfab.com/3d-models/forgotten-well-cfe742e77e0642ee852b9f419639f56d",
+            "icon": "FiExternalLink",
+            "data_tooltip": "SketchFab"
+          }
+        ]
+      },
+      {
+        "imageURL": "../assets/3D/plant.png",
+        "name": "A Stylized Potted Plant",
+        "links": [
+          {
+            "href": "https://sketchfab.com/3d-models/potted-plant-practice-b8f3e0a2fdcf494a8fa78af722f5f9d5",
+            "icon": "FiExternalLink",
+            "data_tooltip": "SketchFab"
+          }
+        ]
+      },
+      {
+        "imageURL": "../assets/3D/renee.png",
+        "name": "Buzzkill",
+        "links": [
+          {
+            "href": "https://sketchfab.com/3d-models/a-walking-dead-fan-whos-a-little-too-excited-ff1535ed0ddb4a469741fb05cfe59ca4",
+            "icon": "FiExternalLink",
+            "data_tooltip": "SketchFab"
+          }
+        ]
+      },
+      {
+        "imageURL": "../assets/3D/aevum.png",
+        "name": "APOL Sci-fi Chair",
+        "links": [
+          
+        ]
+      }
+    ]
+  },
+
+  "twoD": {
+    "section": {
+      "enable_section": true,
+      "title": "2D Assets",
+      "navbar_name": "/2D Assets",
+      "description": "Illustrations i've made with Procreate."
+    },
+    "twoD_items": [
+      {
+        "imageURL": "../assets/2D/6.png",
+        "name": "Zuko From Avatar",
+        "links": [
+          {
+            "href": "https://sketchfab.com/3d-models/zuko-manga-stylized-53bed32aaf144a1cb5031a9c875ec619",
+            "icon": "FiExternalLink",
+            "data_tooltip": "SketchFab"
+          }
+        ]
+      },
+      {
+        "imageURL": "../assets/2D/2.png",
+        "name": "A Stylized Well",
+        "links": [
+          {
+            "href": "https://sketchfab.com/3d-models/forgotten-well-cfe742e77e0642ee852b9f419639f56d",
+            "icon": "FiExternalLink",
+            "data_tooltip": "SketchFab"
+          }
+        ]
+      },
+      {
+        "imageURL": "../assets/2D/3.png",
+        "name": "A Stylized Potted Plant",
+        "links": [
+          {
+            "href": "https://sketchfab.com/3d-models/potted-plant-practice-b8f3e0a2fdcf494a8fa78af722f5f9d5",
+            "icon": "FiExternalLink",
+            "data_tooltip": "SketchFab"
+          }
+        ]
+      },
+      {
+        "imageURL": "../assets/2D/4.png",
+        "name": "A Stylized Well",
+        "links": [
+          {
+            "href": "https://sketchfab.com/3d-models/forgotten-well-cfe742e77e0642ee852b9f419639f56d",
+            "icon": "FiExternalLink",
+            "data_tooltip": "SketchFab"
+          }
+        ]
+      },
+      {
+        "imageURL": "../assets/2D/8.png",
+        "name": "A Stylized Potted Plant",
+        "links": [
+          {
+            "href": "https://sketchfab.com/3d-models/potted-plant-practice-b8f3e0a2fdcf494a8fa78af722f5f9d5",
+            "icon": "FiExternalLink",
+            "data_tooltip": "SketchFab"
+          }
+        ]
+      },
+      {
+        "imageURL": "../assets/2D/7.png",
+        "name": "A Stylized Potted Plant",
+        "links": [
+          {
+            "href": "https://sketchfab.com/3d-models/potted-plant-practice-b8f3e0a2fdcf494a8fa78af722f5f9d5",
+            "icon": "FiExternalLink",
+            "data_tooltip": "SketchFab"
+          }
+        ]
+      },
+      {
+        "imageURL": "../assets/2D/5.png",
+        "name": "Buzzkill",
+        "links": [
+          {
+            "href": "https://sketchfab.com/3d-models/a-walking-dead-fan-whos-a-little-too-excited-ff1535ed0ddb4a469741fb05cfe59ca4",
+            "icon": "FiExternalLink",
+            "data_tooltip": "SketchFab"
+          }
+        ]
+      }
+      
+    ]
+  },
+  
+  "animations": {
+    "section": {
+      "enable_section": true,
+      "title": "Animations",
+      "navbar_name": "/Animations",
+      "description": "3D and 2D animations."
+    },
+    "animations_items": [
+      {
+        "imageURL": "../assets/Animations/EvilHarry.mp4"
+      },
+      {
+        "imageURL": "../assets/Animations/spar.mp4"
+      },
+      {
+        "imageURL": "../assets/Animations/samurai.mp4"
+      },
+      {
+        "imageURL": "../assets/Animations/port.mp4"
+      }
+      
+    ]
+  },
+
+  "footer": {
+    "line_one": "Designed by",
+    "copyright_line": "All rights reserved."
+  },
+  "error_page": {
+    "title": "Error 404",
+    "description": "The page you are looking for does not exist. Chose one of the following links to continue."
+  }
+}

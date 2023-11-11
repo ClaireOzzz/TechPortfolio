@@ -1,0 +1,1182 @@
+:root {
+  --dark-navy: rgb(0, 0, 0);
+  --navy: #1c1c1c;
+  --light-navy: #575757;
+  --light-purple: #9775c2;
+  --offwhite: #E2E2E2;
+  --bone-white: #d4ddf8;
+  --smoke: #a4a5a9;
+  --light-purplesmoke: #996dc9;
+  --lighter-smoke: #eeeff2;
+  --font-sans: 'Lucida Sans', monospace;
+  --font-mono:'Lucida Sans', monospace;
+}
+
+body {
+  background: var(--dark-navy);
+  color: var(--offwhite);
+}
+
+
+
+.p-r {
+  position: relative;
+}
+
+.color-a {
+  text-decoration: none;
+  color: var(--light-purple);
+}
+
+.color-d {
+  color: #f5f5f5;
+}
+
+.color-text-a {
+  text-decoration: none;
+  color: #4e4e4e;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box-shadow,
+.card-recentprojects,
+.work-box,
+.service-box,
+.paralax-mf {
+  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.box-shadow-a,
+.button:hover {
+  text-decoration: none;
+  box-shadow: 0 0 0 4px #cde1f8;
+}
+
+
+.Side {
+  position: fixed;
+  z-index: 1000;
+  border-right: 1px solid white;
+  /* background-color:#E2E2E2; */
+  width: 30% ;
+  height:100%;
+  left:0;
+  top:0;
+  background-attachment: fixed;
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+  position: static;
+}
+
+#background-video {
+  position: absolute;
+  bottom: 55%;
+  left: 40%;
+  width: 70%;
+  height: 70%;
+}
+
+
+#background-video2 {
+  position: absolute;
+  bottom: 65%;
+  left: 60%;
+  width: 25%;
+  height: 25%;
+}
+
+@media (max-width: 1024px) {
+  .bg-image {
+    background-attachment: scroll;
+  }
+}
+
+.overlay-mf {
+  background-color: #17202a;
+}
+
+.overlay-mf {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.paralax-mf {
+  position: relative;
+  padding: 8rem 0;
+}
+
+.display-table {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.sect-4 {
+  padding: 4rem 0;
+}
+
+.sect-pt4 {
+  padding-top: 4rem;
+}
+
+.sect-mt4 {
+  margin-top: 4rem;
+}
+
+.title-s {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+}
+
+.title-box {
+  padding-top: 5rem;
+  margin-bottom: 1.5rem;
+  float: left;
+  position: relative;
+}
+
+.title-a {
+ 
+  color: var(--light-purple);
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  text-align: left;
+  font-size: 2.5rem;
+  font-weight: 550;
+  padding-top: 2rem;
+}
+
+.subtitle-a {
+  margin-top: 0;
+  text-decoration: none;
+  text-align: left;
+  float: left;
+  color: var(--light-purplesmoke);
+  font-weight: 500;
+  font-family: var(--font-sans);
+  font-size: 1.2rem;
+}
+
+.line-mf {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .line-mf {
+    display: inline;
+    width: 28rem;
+    height: 1px;
+    float: right;
+    background-color: var(--light-navy);
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+  }
+}
+
+.box-pl2 {
+  padding-left: 2rem;
+}
+
+.box-shadow-full {
+  padding: 3rem 1.25rem;
+  position: relative;
+  background-color: var(--dark-navy);
+  border-radius: 8px;
+  margin-bottom: 3rem;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .box-shadow-full {
+    padding: 3rem;
+  }
+}
+
+/*--------------------------------------------------------------
+# About me section
+--------------------------------------------------------------*/
+
+.about-bold {
+  font-weight: bold;
+}
+
+.about-me-desc strong a {
+  color: var(--light-purple);
+  font-size: 1.1rem;
+}
+
+.about-me-desc strong a:hover {
+  color: #abb2b9;
+  text-decoration: none;
+}
+
+.myportrait {
+  left: 2%;
+  height: 16vw;
+  border-radius: 50%;
+  box-shadow: 10px 10px 58px 6px rgba(0, 0, 0, 0.56);
+  -webkit-box-shadow: 10px 10px 58px 6px rgba(0, 0, 0, 0.56);
+  -moz-box-shadow: 10px 10px 58px 6px rgba(0, 0, 0, 0.56);
+  margin: 6vw;
+  position: fixed;
+  top:0;
+}
+
+.col-md-6 img {
+  padding-left: 0rem;
+}
+
+.about-me-desc {
+  color: var(--smoke);
+  font-size: 1.2rem;
+  font-family: var(--font-sans);
+  font-weight: 400;
+  line-height: 1.3;
+  padding-bottom: 1rem;
+}
+
+.languages-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.languages-list ul li {
+  color: var(--offwhite);
+  padding-right: 0rem;
+  white-space: nowrap;
+  font-size: 1rem;
+  padding-top: 12%;
+  font-family: var(--font-sans);
+}
+
+.languages-list ul {
+  width: 50%;
+  padding: 0 0px;
+}
+
+.languages-list ul li::before {
+  content: "▹";
+  padding-right: 0.8rem;
+  color: var(--light-purple);
+}
+
+@media (min-width: 768px) {
+  .col-md-6 .col-6-img-a {
+    padding-left: 4rem;
+  }
+}
+
+/*--------------------------------------------------------------
+# Revealing scroll effect
+--------------------------------------------------------------*/
+
+.reveal {
+  position: relative;
+  transform: transmokeY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: transmokeY(0px);
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Tooltips for courses tables
+--------------------------------------------------------------*/
+
+[data-tooltip] {
+  position: relative;
+  z-index: 0; /* Increase the z-index value to ensure tooltips appear above other elements */
+  cursor: pointer;
+}
+
+/* Hide the tooltip content by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 3000;
+}
+
+/* Position tooltip above the element */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
+  margin-bottom: 20px;
+  margin-left: -80px;
+  padding: 7px;
+  width: 160px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: var(--light-navy);
+  color: var(--offwhite);
+  content: attr(data-tooltip);
+  transition: all 0.15s ease-in;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.2;
+  z-index: 3000;
+}
+
+/* Triangle hack to make tooltip look like a speech bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
+  margin-left: -5px;
+  margin-bottom: 15px;
+  width: 0;
+  border-top: 5px solid var(--light-navy);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+  z-index: 3000;
+}
+
+/* Show tooltip content on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  z-index: 3000;
+}
+
+/*--------------------------------------------------------------
+# sanD Course Table styles
+--------------------------------------------------------------*/
+
+.sanD table,
+td,
+th {
+  border: 1px solid var(--dark-navy);
+}
+
+.sanD td {
+  padding-left: 0.7rem;
+}
+
+.sanD th {
+  text-align: left;
+  color: var(--bone-white);
+  padding-top: 2.5rem;
+  font-size: 1.1rem;
+}
+
+.sanD table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.sanD td {
+  height: 50px;
+  color: var(--light-purplesmoke);
+  vertical-align: bottom;
+}
+
+/*--------------------------------------------------------------
+# Extraciricular Styles
+--------------------------------------------------------------*/
+
+.sanD-extras h4 {
+  text-decoration: underline;
+  color: var(--light-purple);
+  text-shadow: 0 0 3px rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.sanD-extras table {
+  width: 90%;
+}
+
+.sanD-extras p {
+  color: #abb2b9;
+  text-align: center;
+}
+
+.sanD-extras table th {
+  text-align: center;
+  color: #ecf0f1;
+}
+
+.sanD-extras table td {
+  text-align: left;
+  padding-left: 0.5rem;
+  height: 50px;
+  color: #abb2b9;
+  vertical-align: bottom;
+}
+
+.sanD-extras a {
+  text-decoration: none;
+  color: var(--light-purple);
+  text-shadow: 0 0 10px rgba(187, 153, 85, 0.9);
+}
+
+.sanD-extras a:hover {
+  color: #ecf0f1;
+  transition: all 0.5s ease-in-out;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.course-title strong {
+  color: var(--light-purple);
+}
+
+/*--------------------------------------------------------------
+# Resume Buttons
+--------------------------------------------------------------*/
+
+.resumeButtons {
+  text-align: center;
+  padding-top: 1.5rem;
+  font-size: 1.15rem;
+}
+
+.resumeButtons a {
+  color: var(--light-purple);
+  text-shadow: 0 0 5px rgba(187, 153, 85, 0.9);
+  padding: 1rem;
+}
+
+.resumeButtons a:hover {
+  color: #ecf0f1;
+  transition: all 0.5s ease-in-out;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+/*--------------------------------------------------------------
+# intro landing screen
+--------------------------------------------------------------*/
+
+.intro_section * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+  list-style-type: none;
+}
+
+.intro_section {
+  padding-top: 1rem;
+  background: var(--dark-navy);
+  color: var(--smoke);
+  line-height: 1.4;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  height: 100vh;
+}
+
+@media (min-width: 767px) {
+  .intro_section {
+    padding-top: 5%;
+  }
+}
+
+/* adjusted padding from top for larger monirot/screens */
+@media (min-width: 1350px) {
+  .intro_section {
+    padding-top: 18%;
+  }
+}
+
+.intro_section::-webkit-scrollbar {
+  display: none;
+}
+
+.intro_section h1 {
+  color: var(--lighter-smoke);
+  font-family: 'Lucida Sans', monospace;
+  margin: 0 0 10px;
+  font-size: 3rem;
+  font-weight: 1000;
+}
+
+.intro_section a {
+  color: var(--light-purple);
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
+  font-size: 1.25rem;
+  border: 1px solid var(--light-purple);
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.intro_section a:hover {
+  color: var(--offwhite);
+  border: 1px solid var(--offwhite);
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.intro_section strong {
+  color: var(--light-purplesmoke);
+  font-size: 1.6rem;
+  font-weight: 1000;
+}
+
+.intro_section .introParagraph {
+  text-align: justify;
+  color: var(--smoke);
+  padding-top: 1.25rem;
+  padding-bottom: 2.5rem;
+  font-size: 3rem;
+  position: relative;
+}
+
+.intro_section .introParagraph p {
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  word-spacing: 0.4rem;
+  letter-spacing: 1.1px;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.intro_section em {
+  color: #dd925f;
+}
+
+.intro_section h3 {
+  padding-top: 1rem;
+  margin: 10px 0;
+}
+
+.intro_section h3 i {
+  padding-right: 0.8rem;
+}
+
+.intro_section img {
+  display: none;
+}
+
+.intro_section .comment {
+  color: #4d4d4c;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.intro_section p:nth-of-type(8) {
+  color: #b5bc67;
+}
+
+
+/*--------------------------------------------------------------
+# recentprojects
+--------------------------------------------------------------*/
+
+.card-recentprojects {
+  background: var(--navy);
+  color: var(--bone-white);
+  border-radius: 8px;
+  max-height: 30rem;
+}
+
+.post-date a {
+  color: var(--light-purple);
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  font-size: 1.1rem;
+  z-index: 2000;
+}
+
+.post-date a:hover {
+  color: var(--offwhite);
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  z-index: 2000;
+}
+
+p,
+a {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  margin: 0.8em 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--smoke);
+}
+
+.card-title {
+  padding-top: 1rem;
+  color: #ecf0f1;
+}
+
+@media (min-width: 767px) {
+  .card-recentprojects {
+    margin-bottom: 0rem;
+    background: var(--navy);
+    color: var(--offwhite);
+  }
+}
+
+.col-md-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+.Acol-md-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 50%;
+}
+
+
+.card-recentprojects .card-body {
+  position: relative;
+}
+
+/* fade in effect for card-body */
+
+.card-body:hover .card-description {
+  color: var(--offwhite);
+  transition: color 0.5s ease-in-out;
+}
+
+.card-body:hover .resources-used {
+  color: var(--offwhite);
+  transition: color 0.5s ease-in-out;
+}
+
+/* fade effect ends here */
+
+.card-recentprojects .card-category-box {
+  position: absolute;
+  text-align: center;
+  top: -16px;
+  left: 15px;
+  right: 15px;
+  line-height: 25px;
+  overflow: hidden;
+}
+
+.card-recentprojects .card-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-video {
+  width: 100%;
+}
+.card-title {
+  color: var(--offwhite);
+  padding-bottom: 0.8rem;
+}
+
+.card-recentprojects .card-title {
+  font-size: 1.3rem;
+  margin-top: 0.6rem;
+  color: var(--offwhite);
+}
+.card-recentprojects .card-description {
+  color: var(--light-purplesmoke);
+}
+.card-recentprojects .post-author {
+  display: inline-block;
+  word-spacing: 0.2rem;
+  color: var(--smoke);
+}
+.card-recentprojects .post-date {
+  color: var(--light-purple);
+  display: inline-block;
+}
+
+.card-footer {
+  display: flex;
+  z-index: 2000;
+  justify-content: space-between; /* push the author to the left and post-date to the right */
+  align-items: center; /* Vertically center the content */
+}
+
+.post-author {
+  flex: 1; /* take the available space, pushing post-date to the right */
+  word-spacing: 0.2rem;
+  color: var(--smoke);
+}
+
+.post-date {
+  color: var(--light-purple);
+  z-index: 2000;
+}
+
+/*--------------------------------------------------------------
+# recentprojects Single
+--------------------------------------------------------------*/
+
+@media (min-width: 768px) {
+  .post-box,
+  .form-comments,
+  .box-comments,
+  .widget-sidebar {
+    padding: 3rem;
+  }
+}
+
+.recentprojects-wrapper .article-title {
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  .recentprojects-wrapper .article-title {
+    font-size: 1.9rem;
+  }
+}
+.recentprojects-wrapper .post-meta {
+  margin: 1rem 0;
+}
+.recentprojects-wrapper .post-meta ul {
+  border-left: 4px solid var(--navy);
+  margin-top: 1rem;
+}
+.recentprojects-wrapper .post-meta ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.recentprojects-wrapper .post-meta ul a {
+  color: var(--navy);
+}
+.recentprojects-wrapper .post-meta ul span {
+  color: #1e1e1e;
+}
+.recentprojects-wrapper .blockquote {
+  border-left: 4px solid var(--navy);
+  padding: 18px;
+  font-style: italic;
+}
+
+.card-recentprojects .resources-used {
+  font-size: 0.85rem;
+}
+
+/*--------------------------------------------------------------
+# Certifications
+--------------------------------------------------------------*/
+.work-box {
+  margin-bottom: 3rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color: var(--navy);
+  border-radius: 8px;
+}
+.work-box:hover img {
+  transform: scale(1.3);
+}
+
+.work-img {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.work-img img {
+  transition: all 1s;
+}
+
+.work-content {
+  padding: 2rem 3% 1rem 4%;
+}
+.work-content .w-more {
+  color: #abb2b9;
+  font-size: 0.8rem;
+}
+.work-content .w-more .w-ctegory {
+  color: var(--light-purple);
+}
+
+.w-title {
+  font-size: 1.2rem;
+  color: #ecf0f1;
+}
+
+/*--------------------------------------------------------------
+# My Certifications
+--------------------------------------------------------------*/
+.certifications-details {
+  padding-top: 40px;
+}
+.certifications-details .certifications-details-slider img {
+  width: 100%;
+}
+.certifications-details .certifications-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.certifications-details
+  .certifications-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid var(--navy);
+}
+.certifications-details
+  .certifications-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
+  background-color: var(--navy);
+}
+.certifications-details .certifications-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
+}
+.certifications-details .certifications-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.certifications-details .certifications-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+.certifications-details .certifications-info ul li + li {
+  margin-top: 10px;
+}
+.certifications-details .certifications-description {
+  padding-top: 30px;
+}
+.certifications-details .certifications-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.certifications-details .certifications-description p {
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+# experience section
+--------------------------------------------------------------*/
+
+li {
+  list-style: none;
+}
+
+#experience {
+  text-align: left;
+}
+
+.wrapper {
+  display: flex;
+}
+.indicator {
+  padding: 2.5rem 2rem;
+}
+.indicator li {
+  display: flex;
+  align-items: center;
+  grid-gap: 0.5rem;
+  padding: 1.5rem 4rem 1.5rem 0rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  color: var(--offwhite);
+  border-right: 3px solid transparent;
+  transition: border-right-color 0.3s ease; /* Add transition property */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Show ellipsis (...) for overflow text */
+}
+.indicator li i {
+  font-size: 1rem;
+}
+.indicator li:hover {
+  color: var(--light-purple);
+}
+.indicator li.active {
+  border-right-color: var(--light-purple);
+  color: var(--light-purple); /* Set the text color of the active indicator */
+}
+.content {
+  padding: 1.5rem 4rem;
+}
+.content li {
+  display: none;
+}
+.content li.active {
+  display: list-item;
+}
+.content h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--offwhite);
+}
+
+.content h4 {
+  font-size: 1rem;
+  color: var(--smoke);
+  margin-bottom: 1.25rem;
+  word-spacing: 0.25rem;
+}
+
+.content ul {
+  padding-left: 1rem;
+}
+
+.content ul li.active {
+  margin-bottom: 0.5rem;
+  color: var(--smoke);
+  font-size: 1rem;
+  width: 100%;
+  padding-left: 1rem;
+  padding-bottom: 0.8rem; /* Distance from other li descriptions */
+  position: relative; /* Set position to relative for absolute positioning */
+}
+
+/* Style the list item marker (absolute positioning) */
+.content ul li.active::before {
+  content: "▹";
+  color: var(--light-purple);
+  position: absolute;
+  left: -1rem; /* distance between symbol and text */
+}
+
+.content li li {
+  margin-bottom: 0.5rem;
+  color: var(--light-purple);
+  font-size: 1rem;
+  width: 50%;
+}
+
+/*--------------------------------------------------------------
+# navlist AND link bar AND Repo Stats Section
+--------------------------------------------------------------*/
+
+.repo-stats,
+.navlist,
+.linkbar {
+  /* left:-30%; */
+  position: relative;
+}
+
+.navlist ul li a {
+  color: var(--smoke);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navlist ul li a:hover {
+  color: var(--light-purple);;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.linkbar a:hover {
+  color: var(--light-purple);
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+.repo-stats {
+  color: var(--smoke);
+}
+
+.repo-stats a:hover {
+  color: var(--offwhite);
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 1600px) {
+  .repo-stats,
+  .navlist,
+  .linkbar {
+    /* left:-30%; */
+    padding: 4%;
+    position: relative;
+    bottom:-40%;
+  }
+}
+/* minimum screen width for the nav, links, etc to fit */
+@media (min-width: 1660px) {
+  .repo-stats {
+    display: block;
+    position: fixed;
+    top: 1rem;
+    right: 10rem;
+    background-color: var(--dark-navy);
+    padding: 10px;
+    transition: opacity 0.3s;
+    z-index: 999;
+  }
+
+  .repo-stats.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .navlist {
+    font-size: 0.85rem;
+    /* text-transform: lowercase; */
+    display: block;
+    position: fixed;
+    /* right: 0; */
+    bottom: 0;
+    padding-right: 8.5rem;
+    padding-bottom: 8rem;
+    text-align: right;
+    z-index: 999;
+  }
+
+  .navlist ul li {
+    padding: 0.15rem;
+    color: var(--light-purple);
+    top: 30%;
+  }
+
+  .navlist li nav {
+    padding-top: 2.25rem;
+  }
+
+  .navlist li a {
+    padding: 0.5rem;
+  }
+
+  .linkbar {
+    display: block;
+  }
+
+  .linkbar {
+    position: fixed;
+    left: 2rem;
+    top: 5rem;
+    padding: 10px;
+    width: 50px;
+    z-index: 1;
+  }
+
+  .linkbar ul {
+    list-style: none;
+    padding: 10%;
+  }
+
+  .linkbar li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.25rem;
+  }
+
+  .linkbar nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .linkbar a {
+    color: var(--smoke);
+    font-size: 1.4rem;
+  }
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+footer {
+  text-align: center;
+  color: var(--offwhite);
+  padding: 4rem 0 3rem 0;
+  background: var(--dark-navy);
+}
+footer .copyright {
+  margin-bottom: 0.3rem;
+}
+
+footer .copyright-box {
+  color: var(--smoke);
+}
+
+footer .credits {
+  margin-bottom: 0.3rem;
+}
+
+footer .credits a {
+  color: var(--smoke);
+}
+
+footer a:hover {
+  color: var(--offwhite);
+  transition: color 0.5s ease-in-out;
+}
+
+/*--------------------------------------------------------------
+# 404 ERROR PAGE
+--------------------------------------------------------------*/
+
+.error-section {
+  background-color: var(--dark-navy);
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.error-section h1 {
+  color: var(--light-purple);
+  text-align: center;
+}
+
+.error-section p {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.error-section a {
+  text-align: center;
+  color: var(--bone-white);
+  padding: 2rem;
+  text-decoration: none;
+}
+
+.error-section a:hover {
+  color: var(--smoke);
+  transition: all 1s ease;
+}
+
+
+
+@media (max-width: 767px) {
+  .intro_section h1{
+    font-size: 3rem;
+  }
+  .introParagraph p{
+    font-size: 0.2rem;
+  }
+  .intro_section a{
+    font-size: 0.2rem;
+  }
+  .intro_section strong {
+    font-size: 1.6rem;
+  }
+}
