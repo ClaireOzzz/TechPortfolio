@@ -35,7 +35,7 @@ function App() {
               </div>
 
               <div 
-              style={isMobile ? { position: 'relative', width:'95%', overflowX:'hidden', fontSize:'2px'} : {right:'-30%', position: 'relative', width:'70%'}}>
+              style={isMobile ? { position: 'relative', width:'95%', overflowX:'hidden', fontSize:'2px'} : {padding:' 3%',right:'-30%', position: 'relative', width:'70%'}}>
                 {intro_screen.section.enable_section && <Intro />}
                 {about_me.section.enable_section && <About />}
                 {projects.section.enable_section && <SideProjects />}
