@@ -1,7 +1,7 @@
 import { Fade } from "react-awesome-reveal";
-import React, { useState, useEffect } from "react";
+import React from "react";
 import contentData from "../content.json";
-import { FaGithub, FaDownload, FaFilePdf } from "react-icons/fa";
+import {FaFilePdf } from "react-icons/fa";
 import { FiExternalLink, FiFolder } from "react-icons/fi";
 
 const iconComponents = {

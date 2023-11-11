@@ -1,6 +1,6 @@
 import React from "react";
 import contentData from "../content.json";
-import { FaGithub, FaLinkedin, FaArtstation } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import {SiSketchfab} from "react-icons/si";
 import { MdEmail } from "react-icons/md";
 import { Fade } from "react-awesome-reveal";

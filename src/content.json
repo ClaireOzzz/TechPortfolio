@@ -4,7 +4,7 @@
     "middle_name": "Gan Li",
     "last_name": "Oudea",
     "navbar_social_links": {
-      "github": "https://github.com/KevinTrinh1227",
+      "github": "https://github.com/ClaireOzzz",
       "handshake": "https://sketchfab.com/TheGreyCroissant",
       "linkedin": "https://www.linkedin.com/in/claireoudea/",
       "email": "oudeaclaire@gmail.com"
@@ -96,7 +96,7 @@
     "project_items": [
       {
         "use_git_api": false,
-        "api_github_repo_link": "https://api.github.com/repos/KevinTrinh1227/Hycord-Bot",
+        "api_github_repo_link": "https://api.github.com/repos/ClaireOzzz",
         "project_name": "Laparolymph: VR Surgical Training Game",
         "description": "A major final year project surrouding the use of a VR training tool to train surgeons in a challenging surgery. In partnership with DukeNUS university, this project will be completed in May 2024.",
         "resources_used": ["UNITY", "Blender", "C#"],
