@@ -59,7 +59,7 @@ const Navbar = () => {
           <a  style={{color:"#9775c2"}} href='https://clairesartsyportfolio.netlify.app/' target="_blank" rel="noreferrer" >My more 'Artsy' R3F Portfolio</a>
           </li>
           <li style={{paddingTop:'1%'}}>
-            <a style={{color:"#9775c2"}}  href='/cv.pdf' target="_blank" rel="noreferrer" >My CV</a>
+            <a style={{color:"#9775c2"}}  href='/CV(NOV).pdf' target="_blank" rel="noreferrer" >My CV</a>
           </li>
         </ul>
       </Fade>
