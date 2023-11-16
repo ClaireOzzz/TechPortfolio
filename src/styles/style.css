@@ -493,7 +493,7 @@ th {
   background: var(--dark-navy);
   color: var(--smoke);
   line-height: 1.4;
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  /* font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace; */
   height: 100vh;
   
 }
@@ -556,8 +556,8 @@ th {
 }
 
 .intro_section .introParagraph p {
-  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
-    system-ui, sans-serif;
+  /* font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif; */
   word-spacing: 0.4rem;
   letter-spacing: 1.1px;
   font-size: 1.2rem;
@@ -602,6 +602,7 @@ th {
   color: var(--bone-white);
   border-radius: 8px;
   max-height: 30rem;
+  min-height: 25rem;
 }
 
 .post-date a {
@@ -1020,7 +1021,7 @@ li {
     /* left:-30%; */
     padding: 0%;
     position: relative;
-    bottom:-40%;
+    bottom:-45%;
   }
 }
 /* minimum screen width for the nav, links, etc to fit */
@@ -1047,9 +1048,9 @@ li {
     display: block;
     position: fixed;
     /* right: 0; */
-    bottom: 0;
+    bottom: 17%;
     padding-right: 8.5rem;
-    padding-bottom: 8rem;
+    padding-bottom: 1rem;
     text-align: right;
     z-index: 999;
   }
@@ -1069,7 +1070,7 @@ li {
   }
 
   .linkbar {
-    display: block;
+    display: flex;
   }
 
   .linkbar {

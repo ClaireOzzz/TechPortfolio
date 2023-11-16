@@ -46,7 +46,7 @@ const Navbar = () => {
       <Fade cascade damping={0.2} triggerOnce={true}>
         <ul>
           <li>
-            <a href="https://claireoudea.netlify.app/">/Home</a>
+            <a href="https://ClaireOudea.netlify.app/">/Home</a>
           </li>
           {sections.map((section) => {
             return (
@@ -55,11 +55,11 @@ const Navbar = () => {
               </li>
             ) 
           })}
-          <li style={{paddingTop:'10%'}}>
-          <a href='https://clairesartsyportfolio.netlify.app/' target="_blank" rel="noreferrer" >A more Artsy R3F Portfolio</a>
+          <li style={{color:"#9775c2", paddingTop:'10%'}}>
+          <a  style={{color:"#9775c2"}} href='https://clairesartsyportfolio.netlify.app/' target="_blank" rel="noreferrer" >My more 'Artsy' R3F Portfolio</a>
           </li>
           <li style={{paddingTop:'1%'}}>
-            <a href='/cv.pdf' target="_blank" rel="noreferrer" >My CV</a>
+            <a style={{color:"#9775c2"}}  href='/cv.pdf' target="_blank" rel="noreferrer" >My CV</a>
           </li>
         </ul>
       </Fade>
