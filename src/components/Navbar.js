@@ -35,6 +35,11 @@ const Navbar = () => {
       enable: contentData.twoD.section.enable_section,
     },
     {
+      id: "games",
+      text: contentData.games.section.navbar_name,
+      enable: contentData.games.section.enable_section,
+    },
+    {
       id: "animations",
       text: contentData.animations.section.navbar_name,
       enable: contentData.animations.section.enable_section,
@@ -59,7 +64,7 @@ const Navbar = () => {
           <a  style={{color:"#9775c2"}} href='https://clairesartsyportfolio.netlify.app/' target="_blank" rel="noreferrer" >My more 'Artsy' R3F Portfolio</a>
           </li>
           <li style={{paddingTop:'1%'}}>
-            <a style={{color:"#9775c2"}}  href='/CV(NOV).pdf' target="_blank" rel="noreferrer" >My CV</a>
+            <a style={{color:"#9775c2"}}  href='/CV(tech).pdf' target="_blank" rel="noreferrer" >My CV</a>
           </li>
         </ul>
       </Fade>

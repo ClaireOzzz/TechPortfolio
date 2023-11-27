@@ -602,7 +602,7 @@ th {
   color: var(--bone-white);
   border-radius: 8px;
   max-height: 30rem;
-  min-height: 25rem;
+  /* min-height: 25rem; */
 }
 
 .post-date a {

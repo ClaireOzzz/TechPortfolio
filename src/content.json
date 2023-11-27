@@ -380,6 +380,21 @@
     ]
   },
   
+  "games": {
+    "section": {
+      "enable_section": true,
+      "title": "Games",
+      "navbar_name": "/Games",
+      "description": "Mobile & VR Games."
+    },
+    "games_items": [
+      {
+        "imageURL": "../assets/Animations/srsgames.mp4",
+        "name": "Operating Theatre"
+        
+      }
+    ]
+  },
   "animations": {
     "section": {
       "enable_section": true,

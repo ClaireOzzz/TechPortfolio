@@ -8,6 +8,7 @@ import TwoD from "./components/2D";
 import Animations from "./components/Animations";
 import WorkExperience from "./components/WorkExperience";
 import SideProjects from "./components/SideProjects";
+import Games from "./components/Games";
 import Footer from "./components/Footer";
 import Error404 from "./components/Error404";
 
@@ -20,7 +21,7 @@ import content from "./content.json";
 // order for that specific component to load in the app.js
 
 function App() {
-  const { intro_screen, about_me, experience, projects, threeD, twoD, animations } = content;
+  const { intro_screen, about_me, experience, projects, threeD, twoD, animations, games } = content;
   const isMobile = window.innerWidth<=500;
   return (
     <Router>
@@ -42,6 +43,7 @@ function App() {
                 {experience.section.enable_section && <WorkExperience />}
                 {threeD.section.enable_section && <ThreeD />}
                 {twoD.section.enable_section && <TwoD />}
+                {games.section.enable_section && <Games />}
                 {animations.section.enable_section && <Animations />}
                 <Footer />
               </div>
