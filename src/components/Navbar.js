@@ -61,7 +61,7 @@ const Navbar = () => {
             ) 
           })}
           <li style={{color:"#9775c2", paddingTop:'10%'}}>
-          <a  style={{color:"#9775c2"}} href='https://clairesartsyportfolio.netlify.app/' target="_blank" rel="noreferrer" >My more 'Artsy' R3F Portfolio</a>
+          <a  style={{color:"#9775c2"}} href='https://clairesartsyportfolio.netlify.app/' target="_blank" rel="noreferrer" >My old 'Artsy' R3F Portfolio</a>
           </li>
           <li style={{paddingTop:'1%'}}>
             <a style={{color:"#9775c2"}}  href='/CV(tech).pdf' target="_blank" rel="noreferrer" >My CV</a>

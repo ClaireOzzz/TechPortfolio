@@ -38,8 +38,9 @@
     "skills": [
       "Unity",
       "Blender",
+      "Zbrush",
+      "Substance Painter",
       "Unreal Engine",
-      "Fusion360",
       "Procreate",
       "C#",
 
@@ -119,7 +120,7 @@
       },
       {
         "use_git_api": false,
-        "api_github_repo_link": "https://huggingface.co/ClaireOzzz/Spatial-Project_2.5DShopGenerator",
+        "api_github_repo_link": "https://github.com/ClaireOzzz/ShopGenV2",
         "project_name": "2.5D ControlNet Shop Generator",
         "description": "The development of a large-scale machine learning model pipeline that can be used to generate shop designs in 2.5D. The pipeline consists of a SD training process, and several generation processes.",
         "resources_used": [
@@ -134,7 +135,7 @@
         "end_date": "Dec 2023",
         "links": [
           {
-            "href": "https://huggingface.co/ClaireOzzz/Spatial-Project_2.5DShopGenerator",
+            "href": "https://github.com/ClaireOzzz/ShopGenV2",
             "icon": "FaGithub",
             "data_tooltip": "Visit GitHub Repo"
           }
@@ -212,27 +213,17 @@
     
     "threeD_items2": [
       {
-        "imageURL": "../assets/3D/zuko.png",
-        "name": "Zuko From Avatar",
+        "imageURL": "../assets/3D/samurai.png",
+        "name": "Wild Japan Cyborg",
         "links": [
           {
-            "href": "https://sketchfab.com/3d-models/zuko-manga-stylized-53bed32aaf144a1cb5031a9c875ec619",
-            "icon": "SiSketchfab",
-            "data_tooltip": "SketchFab"
+            "href": "https://www.artstation.com/artwork/Dv6Rly",
+            "icon": "FaArtstation",
+            "data_tooltip": "ArtStation"
           }
         ]
       },
-      {
-        "imageURL": "../assets/3D/well.png",
-        "name": "A Stylized Well",
-        "links": [
-          {
-            "href": "https://sketchfab.com/3d-models/forgotten-well-cfe742e77e0642ee852b9f419639f56d",
-            "icon": "SiSketchfab",
-            "data_tooltip": "SketchFab"
-          }
-        ]
-      },
+     
       {
         "imageURL": "../assets/3D/plant.png",
         "name": "Stylized Potted Plant",
