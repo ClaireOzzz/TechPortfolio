@@ -193,7 +193,7 @@
       "enable_section": true,
       "title": "3D Assets",
       "navbar_name": "/3D Assets",
-      "description": "3D Models i've created with Blender."
+      "description": ""
     },
 
     "threeD_items": [
@@ -257,26 +257,8 @@
 
     "threeD_items3": [
       {
-        "imageURL": "../assets/3D/Preproom1.png",
-        "name": "Eye Theatre Preperation Room",
-        "links": [
-          {
-            "href": "https://www.artstation.com/artwork/Aln93X",
-            "icon": "FaArtstation",
-            "data_tooltip": "ArtStation"
-          }
-        ]
-      },
-      {
-        "imageURL": "../assets/3D/Preproom4.png",
-        "name": "Operating Theatre",
-        "links": [
-          {
-            "href": "https://www.artstation.com/artwork/Aln93X",
-            "icon": "FaArtstation",
-            "data_tooltip": "ArtStation"
-          }
-        ]
+        "imageURL": "../assets/3D/cauterizeVid.mp4",
+        "name": "Cauterize Shader & Smoke Particle Effect (Unity)"
       }
     ]
 
@@ -386,6 +368,7 @@
       }
     ]
   },
+
   "animations": {
     "section": {
       "enable_section": true,

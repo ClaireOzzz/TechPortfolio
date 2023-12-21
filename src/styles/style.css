@@ -89,7 +89,7 @@ a {
   bottom: 65%;
   left: 60%;
   width: 25%;
-  height: 25%;
+  height: 33%;
 }
 
 @media (max-width: 1024px) {
@@ -601,7 +601,7 @@ th {
   background: var(--navy);
   color: var(--bone-white);
   border-radius: 8px;
-  max-height: 30rem;
+  /* max-height: 30rem; */
   /* min-height: 25rem; */
 }
 
@@ -644,7 +644,7 @@ a {
 
 .col-md-4 {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 
