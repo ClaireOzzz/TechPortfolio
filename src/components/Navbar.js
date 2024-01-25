@@ -60,7 +60,7 @@ const Navbar = () => {
               </li>
             ) 
           })}
-          <li style={{color:"#9775c2", paddingTop:'10%'}}>
+          <li style={{color:"#9775c2", paddingTop:'1%'}}>
           <a  style={{color:"#9775c2"}} href='https://clairesartsyportfolio.netlify.app/' target="_blank" rel="noreferrer" >My old 'Artsy' R3F Portfolio</a>
           </li>
           <li style={{paddingTop:'1%'}}>
